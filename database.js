@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/ram').then(()=>
+mongoose.connect('mongodb+srv://ram:yTYBba4ejYmm5hTS@express.homstct.mongodb.net/').then(()=>
 {console.log('connected succsefully...')}).catch((error)=>{console.log(error)})
 
 
